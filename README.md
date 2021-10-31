@@ -18,7 +18,7 @@ Bước 3. Mở tệp Config.ini trong Notepad ++ và nhập Số điện thoạ
         cũng nhập tên người dùng Nhóm mục tiêu trong
         "from_channel" và đặt tên người dùng nhóm của bạn vào "to_channel"
 
-Bước 4. Tạo một thư mục trống với tên "phiên". Bây giờ chạy tệp đăng nhập và nhập OTP và sau đó phiên đăng nhập sẽ được lưu trong thư mục phiên
+Bước 4. Tạo một thư mục trống với tên "sessions". Bây giờ chạy tệp đăng nhập và nhập OTP và sau đó phiên đăng nhập sẽ được lưu trong thư mục phiên
 
 Bước 5. Chạy tệp Export và loại bỏ các thành viên mà các thành viên đó sẽ được lưu trong un.csv
 
