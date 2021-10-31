@@ -10,23 +10,23 @@ Module Required : Open PowerShell in Administrator Mode and Type "pip install te
 
 ------------------------------------------------------------------------------------
 
-Step 1. Open Phone.csv File in Notepad++ and then Enter your Telegram numbers
+Bước 1. Mở Tệp Phone.csv trong Notepad ++ và sau đó Nhập số Telegram của bạn
 
-Step 2. Now open api.csv file in Notepad++ and Enter the api id & hash for those numbers (To get Api & Hash IDs use our bot : https;//t.me/Apiextractor_bot)
+Bước 2. Bây giờ hãy mở tệp api.csv trong Notepad ++ và nhập id api & băm cho các số đó (Để lấy Api & ID băm, hãy sử dụng bot của chúng tôi: https; // t.me/Apiextractor_bot)
 
-Step 3. Open Config.ini file in Notepad++ and Enter the main_Phone Number (choose any one from phone.csv)
-        also enter the target Group username in 
-        "from_channel" and put your group username in "to_channel"
+Bước 3. Mở tệp Config.ini trong Notepad ++ và nhập Số điện thoại chính (chọn bất kỳ số nào từ phone.csv)
+        cũng nhập tên người dùng Nhóm mục tiêu trong
+        "from_channel" và đặt tên người dùng nhóm của bạn vào "to_channel"
 
-Step 4. Create a empty folder with "sessions" as name. Now run the login file and enter OTPs and then login session will be saved in sessions folder
+Bước 4. Tạo một thư mục trống với tên "phiên". Bây giờ chạy tệp đăng nhập và nhập OTP và sau đó phiên đăng nhập sẽ được lưu trong thư mục phiên
 
-Step 5. Run Export file and scrap the members those members will be saved in unf.csv
+Bước 5. Chạy tệp Export và loại bỏ các thành viên mà các thành viên đó sẽ được lưu trong un.csv
 
-Step 6. Now run Filter.py and FilterByLastSeen.py respectively these files will filter the data from unf.csv and will save them in data.csv
+Bước 6. Bây giờ hãy chạy Filter.py và FilterByLastSeen.py tương ứng các tệp này sẽ lọc dữ liệu từ un.csv và sẽ lưu chúng trong data.csv
 
-Step 7. Now edit memory.csv file, by default its 1,1,50 which means the automatic adder (autoadd.py) will pick first mobile number from phone.csv and it will start adding from 1st username to 50th username from data file. (No need to edit it each time it will be automatically edited when you'll run that file again and the memory file values will be 2,51,100)
+Bước 7. Bây giờ hãy chỉnh sửa tệp memory.csv, theo mặc định của nó là 1,1,50 có nghĩa là trình thêm tự động (autoadd.py) sẽ chọn số điện thoại di động đầu tiên từ phone.csv và nó sẽ bắt đầu thêm từ tên người dùng đầu tiên đến tên người dùng thứ 50 từ dữ liệu tập tin. (Không cần chỉnh sửa mỗi lần, nó sẽ tự động được chỉnh sửa khi bạn chạy lại tệp đó và giá trị tệp bộ nhớ sẽ là 2,51,100)
 
-Step 8. Now open ManualSelect Script folder and run addauto.py file which will start adding members
+Bước 8. Bây giờ mở thư mục ManualSelect Script và chạy tệp addauto.py sẽ bắt đầu thêm thành viên
 
 --------------------------------------------------------------------------------------
 
